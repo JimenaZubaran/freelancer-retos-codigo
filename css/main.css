@@ -1,0 +1,285 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+ body {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ footer{
+   background: #2c3e50;
+   color: #FFF;
+   height: 40px;
+   padding: 10px;
+   margin: -16px 0px;
+   text-align: center;
+ }
+
+ h6{
+ font-family: 'Lato', sans-serif;
+ margin: 0px;
+ padding: 0px;
+ }
+
+ input[type="text"]{
+   display: inline;
+   width: 500px;
+   border: none;
+   border-bottom: 1px solid #212529;
+   font-family: 'Lato', sans-serif;
+   color:#212529;
+   font-size: 20px;
+   font-weight: 400;
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   height: 45px;
+ }
+  nav {
+   background: #2c3e50;
+   color: white;
+   height: 30px;
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+   position: fixed;
+   width: 90%;
+   margin-right: 20px;
+ }
+
+ nav > a {
+   display: inline-block;
+ }
+
+  span {
+    color:#18bc9c
+  }
+
+ #first-section{
+   background: #18bc9c;
+   text-align: center;
+   height: 350px;
+   padding: 100px 0px ;
+   color: #FFF;
+   font-size: 58px;
+ }
+
+ #first-section > img {
+   height: 210px;
+   width: 210px;
+ }
+
+ #first-section > p{
+   margin:0px ;
+   padding: 0px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+ }
+ #first-section > div > p{
+   margin: 0px;
+   padding: 0px;
+   font-size: 22px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+ }
+
+ #first-section > hr {
+   background: #FFF;
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 2px;
+   border: solid 1px #FFF;
+   display: inline-block;
+ }
+
+ #second-section {
+   background: #FFF;
+   text-align: center;
+   margin: -1px;
+   height: 550px;
+   padding: 80px 0px ;
+   color: #212529;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 900;
+ }
+
+ #second-section > img{
+   top: 20px;
+ }
+ #second-section > div p {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ #second-section > div > hr{
+   background: #212529;
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 2px;
+   border: solid 1px #212529;
+   display: inline-block;
+ }
+
+ #third-section{
+   background: #18bc9c;
+   text-align: center;
+   height: 600px;
+   padding: 10px 0px ;
+   color: #FFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 400;
+ }
+
+ #third-section > div > hr {
+   background: #FFF;
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 2px;
+   border: solid 1px #FFF;
+   display: inline-block;
+ }
+
+ #third-section > p {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ #third-section > div > div > p {
+ font-size: 30px;
+ font-family: 'Lato', sans-serif;
+ font-weight: 100;
+ width: 100px;
+ display: inline
+ }
+
+ #third-section > .button-white {
+   padding: 20px;
+   border: 1px #FFF solid;
+   width: 200px;
+   height: auto;
+   margin: auto;
+   border-radius: 20%;
+   color: #FFF;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+ }
+
+ #four-section > div > i p {
+   display: inline-block;
+ }
+
+ #four-section {
+   height: 300px;
+   text-align: center;
+   color: #212529;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 800;
+   margin: 300px;
+   margin-top: 70px;
+ }
+
+ #four-section > div {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ #four-section > div > hr {
+   background: #212529;
+   margin: 0px;
+   padding: 0px;
+   width: 100px;
+   height: 2px;
+   border: solid 1px #FFF;
+   display: inline-block;
+ }
+
+
+ #four-section > .button-green {
+   width: 90px;
+   height: 50px;
+   background: #18bc9c;
+   font-family: 'Lato', sans-serif;
+   color:#FFF;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   padding-top: 0.3px;
+   border-radius: 10%;
+ }
+
+ #five-section{
+   height: 200px;
+   background: #2c3e50;
+   color: #FFF;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700px;
+   font-size: 25px;
+   padding: 2px 0;
+   margin: 0px;
+ }
+
+
+ #five-section> div > div {
+   display: inline-block;
+   margin: 20px 50px;
+   width: 250px;
+ }
+ #five-section> div > .uno {
+   padding: 20px;
+   margin: 20px;
+ }
+ #five-section> div > .dos {
+   padding: 30px;
+   margin: 20px;
+ }
+
+ #five-section> div > .tres{
+   padding: 30px;
+   margin: 20px;
+ }
+
+ .images > img {
+ height: 200px;
+ width: 290px;
+ margin: 5px;
+ }
+
+ .left {
+ position: relative;
+ left: 46px;
+ font-size: 22px;
+ font-weight: 900;
+ }
+
+ .right {
+   position: absolute;
+   right: 150px;
+   top: 35px;
+   font-size: 13px;
+   font-weight: 900;
+ }
+
+ .container {
+   width: 1100px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 14px;
+   padding-right: 14px;
+ }
+
+ .right > a {
+   margin: 0px 10px;
+ }
+
+
+
+ .text-uppercase {
+   text-transform: uppercase;
+ }
